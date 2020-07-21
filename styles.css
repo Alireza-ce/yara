@@ -3,8 +3,8 @@ body {
   margin: 0;
 }
 
-nav{
-    background: #f7f7f7;
+nav {
+  background: #f7f7f7;
 }
 
 .nav-container {
@@ -17,10 +17,8 @@ a {
   text-decoration: none;
 }
 .nav-header {
-  text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
-  color: black;
 }
 
 nav ul {
@@ -31,10 +29,10 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 8px;
-  text-transform: uppercase;
 }
 
-nav ul li a {
-    color: black;
-  }
-  
+nav ul li a,
+.nav-header {
+  text-transform: uppercase;
+  color: black;
+}
