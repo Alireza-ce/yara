@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+}
+
+.container,
+.container-fluid {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 32px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+.container-fluid {
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.col {
+  flex-grow: 1;
+}
+
+.col1 {
+  width: 8.33333%;
+}
+
+.col2 {
+  width: 16.6666666%;
+}
+
+.col3 {
+  width: 24.99999%;
+}
+
+.col4 {
+  width: 33.333333%;
+}
+
+.col5 {
+  width: 41.666666%;
+}
+
+.col6 {
+  width: 49.999996%;
+}
+
+.col7 {
+  width: 58.33333%;
+}
+
+.col8 {
+  width: 66.666664%;
+}
+
+.col9 {
+  width: 74.999997%;
+}
+
+.col10 {
+  width: 83.33333%;
+}
+
+.col11 {
+  width: 91.66663%;
+}
+
+.col12 {
+  width: 100%;
+}
+
+.col,
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9,
+.col10,
+.col11,
+.col12 {
+  background-color: aqua;
+}
