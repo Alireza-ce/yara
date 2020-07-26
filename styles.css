@@ -197,11 +197,11 @@ nav ul li a,
   text-transform: uppercase;
 }
 
-.title_after::after{
+.title::after{
   content: "";
   display: block;
   width: 64px;
-  margin: 0;
+  margin: 0 auto;
   height: 4px;
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
 }
@@ -247,4 +247,59 @@ h5{
 
 .about-us_info{
   padding: 0 32px
+}
+
+.services{
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.title-left{
+    margin:0px;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.title-left::after{
+  content: "";
+  display: block;
+  width: 64px;
+  margin: 0;
+  height: 4px;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+.services_description{
+  color: rgba(255,255,255,.75);
+}
+
+.title-white{
+  color: white;
+}
+.title-white::after{
+background: rgba(255,255,255,.3);
+}
+
+.services .col4{
+  padding: 16px;
+}
+.services .col4 i{
+  display: block;
+  margin: auto;
+  font-size: 42px;
+  width: 120px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  padding: 40px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+
+.service_title,.service_description{
+  color: white;
 }
